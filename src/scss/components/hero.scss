@@ -1,0 +1,63 @@
+.heroes > .content-wrapper {
+  max-width: $wrapper-width;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px auto 100px auto;
+  height: $wrapper-height;
+  background-color: $background-color;
+}
+
+.hero {
+  text-align: left;
+}
+
+.hero > h1 {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 54px;
+  color: $main-color;
+  margin: 45px 0 25px 0;
+}
+
+.hero > p {
+  color: $main-color;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27.5px;
+  margin-top: 0;
+  margin-bottom: 50px;
+text-align: left;
+width: 470px;
+}
+
+.hero-btn {
+  width: 167px;
+  height: 48px;
+  border: 3px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  background-color: #8EADD5;;
+}
+
+#hero {
+    color: #f5f5f5;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.hero-btn:hover {
+  background-color: #5A87C2;
+}
+
+.image {
+  margin-right: auto;
+}
+.image > img {
+  width: 450px;
+  height: 450px;
+  margin-left: 85px;
+    margin-right: 45px;
+}

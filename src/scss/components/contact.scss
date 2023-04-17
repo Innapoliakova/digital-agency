@@ -1,0 +1,46 @@
+.contact-sec > .content-wrapper {
+  max-width: $wrapper-width;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px auto 80px auto;
+  height: $wrapper-height;
+  background-color: $background-color;
+  background-color: $background-special-color;
+}
+
+.image-contact > img{
+width: 450px;
+  height: 450px;
+  margin-left: 0;
+}
+
+.contact {
+    text-align: left;
+  width: 500px;
+}
+
+a {
+    text-decoration: none;
+    color: #f5f5f5;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.contact > h4 {
+    font-family: sans-serif;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 54px;
+  color: $main-color;
+}
+
+.contact > p {
+    color: $main-color;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27.5px;
+  margin-bottom: 30px;
+  width: 410px;
+  text-align: left;
+}

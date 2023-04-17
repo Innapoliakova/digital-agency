@@ -1,0 +1,48 @@
+
+.customes > .content-wrapper {
+  max-width: $wrapper-width;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px auto;
+  height: $wrapper-height;
+  background-color: $background-color;
+  margin-top: 100px;
+}
+
+.image {
+  margin-right: auto;
+}
+
+.image > img {
+  width: 450px;
+  height: 450px;
+  margin-left: 85px;
+    margin-right: 45px;
+}
+
+.custome {
+  text-align: left;
+  width: 500px;
+}
+
+ .custome > h4 {
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 54px;
+  color: $main-color;
+//   margin: 45px 0 55px 0;
+}
+
+ .custome> p {
+  color: $main-color;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27.5px;
+  margin-bottom: 30px;
+  width: 410px;
+  text-align: left;
+}
+

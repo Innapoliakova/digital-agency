@@ -1,0 +1,24 @@
+@import "./variable.scss";
+@import "./components/header.scss";
+@import "./components/footer.scss";
+@import "./components/hero.scss";
+@import "./components/companies.scss";
+@import "./components/branding.scss";
+@import "./components/custome.scss";
+@import "./components/testimonial.scss";
+@import "./components/contact.scss";
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

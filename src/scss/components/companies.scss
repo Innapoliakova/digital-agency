@@ -1,0 +1,51 @@
+.companies-wrapper {
+  max-width: $wrapper-width;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+  height: 118px;
+  background-color: $background-color;
+}
+
+p {
+    text-align: center;
+}
+.trust {
+  width: 915px;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  // position: absolute;
+  width: 915px;
+  margin-right: 40px;
+  height: 86px;
+  background-color: $background-special-color;
+  border-radius: 5px;
+}
+
+.logos > div {
+  display: flex;
+  align-items: center;
+}
+
+.logos > div > svg {
+  margin-left: 20px;
+  margin-right: 15px;
+  font-size: 30px;
+  color: $main-color;
+  width: 24px;
+}
+
+.companies-button {
+  text-decoration: none;
+}
+
+#zoom {
+  font-weight: 800;
+  font-style: italic;
+}
+
