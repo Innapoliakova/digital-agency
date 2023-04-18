@@ -9,7 +9,7 @@ const Contact = () => {
             <img src={CustomerSupport} alt="" />
           </div>
           <div class="contact">
-            <h4>Be a part of the next big thing</h4>
+            <h4>Be A Part Of The Next Big Thing</h4>
             <p>
               We work with Brands, Startups, to SMEs. Colaborate for more impact
               and growth.
