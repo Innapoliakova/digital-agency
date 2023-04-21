@@ -12,7 +12,7 @@ const Contact = () => {
             <h4>Be A Part Of The Next Big Thing</h4>
             <p>
               We work with Brands, Startups, to SMEs. Colaborate for more impact
-              and growth.
+              & growth.
             </p>
             <button class="hero-btn">
               <a href="#" id="contact">

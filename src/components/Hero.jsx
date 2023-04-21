@@ -1,6 +1,6 @@
 import React from "react";
 import BusinessPeopleImage from "../images/business-people-discussing-business-idea.png";
-
+// import Media from "react-media";
 
 const Hero = () => {
   return (

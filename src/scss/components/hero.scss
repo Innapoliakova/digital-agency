@@ -1,3 +1,11 @@
+// .heros {
+//   display: flex;
+// }
+// .heroes {
+//   display: flex;
+//   justify-content: center;
+// }
+
 .heroes > .content-wrapper {
   max-width: $wrapper-width;
   display: flex;
@@ -55,9 +63,43 @@ width: 470px;
 .image {
   margin-right: auto;
 }
+
 .image > img {
   width: 450px;
   height: 450px;
   margin-left: 85px;
     margin-right: 45px;
+}
+
+@media (max-width: 720px) {
+.heroes > .content-wrapper {
+flex-wrap: $media-content-wrapper-flex;
+height:$media-wrapper-height;
+width: $media-wrapper-width;
+}
+
+.heroes {
+  padding: $section-padding;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: auto 20px;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+}
+
+.hero > h1 {
+  margin: 10px 15px 30px 15px;
+}
+
+.hero > p {
+  text-align: center;
+}
 }
