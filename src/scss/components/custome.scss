@@ -46,3 +46,36 @@
   text-align: left;
 }
 
+@media (max-width: 720px) {
+.customes > .content-wrapper {
+flex-wrap: $media-content-wrapper-flex;
+height:$media-wrapper-height;
+width: $media-wrapper-width;
+}
+
+.customes {
+  padding: $section-padding;
+}
+
+.custome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: auto 20px;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+}
+
+.custome > h1 {
+  margin: 10px 15px 30px 15px;
+}
+
+.custome > p {
+  text-align: center;
+}
+}
+
