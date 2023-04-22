@@ -4,7 +4,13 @@ const Header = () => {
   return (
     <header>
       <div className="desktopHeader">
-        <a href="#" id="digital">Digital Agency</a>
+        <a href="#" id="digital">
+          Digital Agency
+        </a>
+
+        <input type="checkbox" id="burger" />
+        <label htmlFor="burger">|||</label>
+      
         <nav>
           <ul>
             <li>

@@ -51,4 +51,18 @@ li {
   font-size: 14px;
 }
 
+@media (max-width: 720px) {
+  
+  .footer-wrapper {
+    height:$media-wrapper-height;
+    width: $media-wrapper-width;
 
+  }
+  
+  .footer-wrapper > .footer-items {
+    display: flex;
+    flex-direction: column;
+    height:$media-wrapper-height;
+
+  }
+}

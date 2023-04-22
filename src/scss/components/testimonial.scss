@@ -73,3 +73,21 @@ h6 {
     border-radius: 50%;
     
 }
+
+@media (max-width: 720px) {
+
+  .testimonial-wrapper > .frofile-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height:$media-wrapper-height;
+width: $media-wrapper-width;
+
+.testimon-item {
+  margin-bottom: 20px;
+  width: 100%;
+   height:$media-wrapper-height;
+}
+  }
+}

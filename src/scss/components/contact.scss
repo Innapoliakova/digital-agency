@@ -44,3 +44,40 @@ a {
   width: 410px;
   text-align: left;
 }
+
+@media (max-width: 720px) {
+.contact-sec > .content-wrapper {
+flex-wrap: $media-content-wrapper-flex;
+height:$media-wrapper-height;
+width: 80%;
+}
+
+.contact-sec {
+  padding: $section-padding;
+//   height:$media-wrapper-height;
+// width: $media-wrapper-width;
+  
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: auto 20px;
+  height:$media-wrapper-height;
+width: $media-wrapper-width;
+}
+
+.image-contact {
+  display: none;
+}
+
+.custome > h1 {
+  margin: 10px 15px 30px 15px;
+}
+
+.custome > p {
+  text-align: center;
+}
+}

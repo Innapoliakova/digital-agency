@@ -49,3 +49,14 @@ p {
   font-style: italic;
 }
 
+@media (max-width: 720px) {
+  .companies-wrapper > .logos {
+height:$media-wrapper-height;
+width: $media-wrapper-width
+  }
+
+  .companies-wrapper > .logos > div:last-of-type {
+margin-left: 20px;
+  }
+}
+
