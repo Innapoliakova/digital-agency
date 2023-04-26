@@ -47,6 +47,21 @@
   
 }
 
+.brand > p:last-of-type {
+  display: none;
+  text-align: left;
+}
+
+.brand > h6 {
+      height: 28px;
+    color: #272D38;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27.5px;
+    margin-bottom: 10px;
+}
+
 @media (max-width: 720px) {
 .branding > .content-wrapper {
 flex-wrap: $media-content-wrapper-flex;
@@ -57,7 +72,7 @@ flex-direction: column-reverse;
 }
 
 .branding {
-  padding: $section-padding;
+  padding: 0;
 }
 
 .brand {
@@ -79,6 +94,17 @@ flex-direction: column-reverse;
 
 .brand > p {
   text-align: center;
+  width: fit-content;
+}
+
+.brand > h4 {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.brand > p:last-child {
+  text-align: center;
+  visibility:initial;
 }
 }
 

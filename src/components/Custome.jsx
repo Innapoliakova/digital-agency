@@ -11,7 +11,7 @@ const Custome = () => {
             Commonly Used In The Graphic, Print & Publishing Industies For
             Previewing Visual Layout And Mockups
           </p>
-          <p> --> </p>
+          <p> &rarr; </p>
         </div>
         <div class="image-img">
           <img src={AnalyzingData} alt="" />

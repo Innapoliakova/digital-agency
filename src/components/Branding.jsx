@@ -14,7 +14,8 @@ const Branding = () => {
             Commonly Used In The Graphic, Print & Publishing Industies For
             Previewing Visual Layout And Mockups
           </p>
-          <p> --> </p>
+          <p>&darr;</p>
+          <h6>&rarr;</h6>
         </div>
       </div>
     </section>

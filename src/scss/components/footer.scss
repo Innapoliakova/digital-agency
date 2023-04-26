@@ -54,15 +54,21 @@ li {
 @media (max-width: 720px) {
   
   .footer-wrapper {
-    height:$media-wrapper-height;
-    width: $media-wrapper-width;
+    width: 600px;
+height: auto;
 
   }
   
   .footer-wrapper > .footer-items {
     display: flex;
     flex-direction: column;
-    height:$media-wrapper-height;
-
+width: 50%;
   }
+
+  li {
+    text-align: center;
+    width: 170px;
+  }
+
+ 
 }

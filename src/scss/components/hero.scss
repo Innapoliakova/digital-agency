@@ -90,16 +90,26 @@ width: $media-wrapper-width;
   padding: auto 20px;
 }
 
-.image {
+.content-wrapper > .image {
   display: flex;
   justify-content: center;
+  margin-top: 30px;
+  margin-left: auto;
+}
+
+.content-wrapper> .image > img {
+  margin: auto;
 }
 
 .hero > h1 {
   margin: 10px 15px 30px 15px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .hero > p {
   text-align: center;
+  width: 400px;
 }
+
 }

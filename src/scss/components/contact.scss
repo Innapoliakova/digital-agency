@@ -46,38 +46,47 @@ a {
 }
 
 @media (max-width: 720px) {
-.contact-sec > .content-wrapper {
-flex-wrap: $media-content-wrapper-flex;
-height:$media-wrapper-height;
-width: 80%;
+
+.contact-sec > .content-wrapper  {
+display: flex;
+flex-direction: column-reverse;
+width: 420px;
+border-radius: 10px;
+
+
 }
 
-.contact-sec {
-  padding: $section-padding;
-//   height:$media-wrapper-height;
-// width: $media-wrapper-width;
-  
+.contact-sec > .content-wrapper > div {
+  margin: auto;
+}
+
+
+.image-contact  {
+ display: none;
+ height: 0;
+//  transform: scale(0);
+
 }
 
 .contact {
+ 
+  width: 420px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.contact > h4 {
   text-align: center;
-  padding: auto 20px;
-  height:$media-wrapper-height;
-width: $media-wrapper-width;
+   font-weight: 700;
+    font-size: 44px;
+    width: 350px;
+    // margin: 20px 10px;
+    
 }
 
-.image-contact {
-  display: none;
-}
-
-.custome > h1 {
-  margin: 10px 15px 30px 15px;
-}
-
-.custome > p {
+.contact > p {
   text-align: center;
+
 }
+
 }
