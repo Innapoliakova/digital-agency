@@ -102,9 +102,12 @@ flex-direction: column-reverse;
   margin-bottom: 15px;
 }
 
-.brand > p:last-child {
-  text-align: center;
-  visibility:initial;
+.brand > h6 {
+  visibility: hidden;
+}
+
+.brand > p:last-of-type {
+display: contents;
 }
 }
 
