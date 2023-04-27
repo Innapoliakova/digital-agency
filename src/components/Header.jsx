@@ -3,16 +3,23 @@ import React from "react";
 const Header = () => {
   return (
     <header>
-      <div className="desktopHeader">
-        <a href="#" id="digital">
-          Digital Agency
-        </a>
+    
+      <nav className="navbar">
+        
+        <div className="navbar-container container">
+          
+          <a href="#" id="digital">
+            Digital Agency
+          </a>
 
-        <input type="checkbox" id="burger" />
-        <label htmlFor="burger">|||</label>
-      
-        <nav>
-          <ul>
+          <input type="checkbox" className="" id="" />
+          <div className="hamburger-lines">
+            <span className="line line1"></span>
+            <span className="line line2"></span>
+            <span className="line line3"></span>
+          </div>
+
+          <ul className="menu-items">
             <li>
               <a href="#">home</a>
             </li>
@@ -26,8 +33,8 @@ const Header = () => {
               <a href="#">contact</a>
             </li>
           </ul>
-        </nav>
-      </div>
+        </div>
+      </nav>
     </header>
   );
 };

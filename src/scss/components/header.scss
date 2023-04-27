@@ -1,5 +1,9 @@
-.desktopHeader {
-  margin: auto;
+.navbar {
+  height: 70px;
+}
+
+.navbar-container {
+  height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -8,6 +12,9 @@
   background-color: $background-color;
 }
 
+.navbar-container input[type="checkbox"] {
+  display: none;
+}
 #digital {
   color: $main-color;
   font-size: 20px;
@@ -22,10 +29,11 @@
   color: #5a87c2;
 }
 
-nav > ul > li {
+.navbar > .navbar-container > .menu-items > li {
   display: inline-block;
 }
-nav > ul > li > a {
+
+.navbar > .navbar-container > .menu-items > li > a {
   text-decoration: none;
   font-weight: 400;
   letter-spacing: 1px;
@@ -36,7 +44,7 @@ nav > ul > li > a {
   text-transform: lowercase;
 }
 
-nav > ul > li > a::after {
+.navbar > .navbar-container > .menu-items > li > a::after {
   content: "";
   width: 10%;
   height: 1px;
@@ -50,39 +58,10 @@ nav > ul > li > a::after {
   opacity: 0;
 }
 
-nav > ul > li > a:hover::after {
+.navbar > .navbar-container > .menu-items > li > a:hover::after {
   width: 100%;
   opacity: 1;
 }
 
-#burger, [for=burger] {
-  display: none;
-}
-
 @media (max-width: 720px) {
- [for=burger] {
- display: block;
- position: fixed;
- width: 30px;
- text-align: center;
- right: 300px;
- top: 10px;
- }
-
- nav {
-  display: none;
-  position: fixed;
-  top: 0;
-  margin-top: 30px;
-   right: 300px;
-  background-color: $background-special-color;
- }
-
- #burger:checked + label + nav {
-  display: block;
- }
-
- nav > ul > li {
-  display: block;
- }
 }
