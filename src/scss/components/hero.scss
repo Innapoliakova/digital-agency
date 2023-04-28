@@ -1,10 +1,8 @@
-// .heros {
-//   display: flex;
-// }
-// .heroes {
-//   display: flex;
-//   justify-content: center;
-// }
+.heroes {
+  display: flex;
+  justify-content: center;
+}
+
 
 .heroes > .content-wrapper {
   max-width: $wrapper-width;
@@ -20,7 +18,7 @@
   text-align: left;
 }
 
-.hero > h1 {
+.hero > h4 {
   font-family: sans-serif;
   font-weight: 700;
   font-size: 54px;
@@ -72,6 +70,7 @@ width: 470px;
 }
 
 @media (max-width: 720px) {
+
 .heroes > .content-wrapper {
 flex-wrap: $media-content-wrapper-flex;
 height:$media-wrapper-height;
@@ -83,7 +82,7 @@ width: $media-wrapper-width;
 }
 
 .hero {
-  display: flex;
+ display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
@@ -101,10 +100,11 @@ width: $media-wrapper-width;
   margin: auto;
 }
 
-.hero > h1 {
-  margin: 10px 15px 30px 15px;
-  padding-left: 100px;
-  padding-right: 100px;
+.hero > h4 {
+  margin: 50px 15px 30px 15px;
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-bottom: 15px;
 }
 
 .hero > p {

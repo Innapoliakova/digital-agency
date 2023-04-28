@@ -28,6 +28,7 @@ code {
 .root {
 display: flex;
 justify-content: center;
+// max-width: $max-width;
 }
 
 @media (max-width: 720px) {

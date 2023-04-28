@@ -4,10 +4,10 @@ import BusinessPeopleImage from "../images/business-people-discussing-business-i
 
 const Hero = () => {
   return (
-    <section class="heroes">
+    <section className="heroes">
       <div class="content-wrapper">
         <div class="hero">
-          <h1>Building Digital Prodacts, Brands & Experience</h1>
+          <h4>Building Digital Prodacts, Brands & Experience</h4>
           <p>
             Digital Agancy In Your Online Team Managment Tool That Easy And
             Prompt
